@@ -5,16 +5,16 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//@RestController
-//@RequestMapping("/")
+@RestController
+@RequestMapping("/")
 public class DemoController {
 	
-//	@GetMapping
+	@GetMapping
 	public String welcome() {
 		return "Hello World";
 	}
 	
-//	@PostMapping
+	@PostMapping
 	public String show() {
 		return "This is @PostMapping";
 	}
